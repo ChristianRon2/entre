@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(to right, #02053e, #303);
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+}
+@media (max-width: 992px){
+    .imagenes{
+        gap: 200px
+    }
+}
+.img1, .img2, .img3{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+.mr-popo-1{
+    width: 400px;
+    height: 300px;
+} 
+.mr-popo-2{
+    width: 400px;
+    height: 300px;
+}   
+.mr-popo-3{
+    width: 400px;
+    height: 300px;
+}
+
+.footer{
+    margin-top: 300px;
+    background-color: red;
+}
+.link{
+    font-size: 32px;
+    text-align: center;
+    color: rgb(246, 3, 3);
+}
+.videoseccion{
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
